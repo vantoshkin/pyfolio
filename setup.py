@@ -43,7 +43,7 @@ support_ipython_6 = (sys.version_info >= (3, 3))
 
 install_reqs = [
     'ipython>=3.2.3' if support_ipython_6 else 'ipython>=3.2.3, <6',
-    'matplotlib>=1.4.0',
+    'matplotlib>=1.4.0, <=3.2.0',
     'numpy>=1.11.1',
     'pandas>=0.18.1',
     'pytz>=2014.10',
